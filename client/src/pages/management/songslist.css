@@ -1,0 +1,44 @@
+.song-list {
+	margin: 10px;
+	padding: 10px;
+	padding-bottom: 0;
+	border: 1px solid white;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.song-list-item {
+	padding: 10px;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.song-list-item-name {
+	flex: 1;
+}
+
+.song-list-item-editlink {
+	flex: 0 0 12em;
+}
+
+.song-list-item-editlink a {
+	color: white;
+	text-decoration: none;
+}
+
+.song-list-item-editlink a:hover {
+	text-decoration: underline;
+}
+
+.song-list-item-remove {
+	flex: 0 0 12em;
+}

@@ -1,0 +1,48 @@
+.singer-box {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.singer-current-song-name {
+	font-weight: bold;
+	border-bottom: 1px solid white;
+}
+
+.singer-verse-view {
+	width: 10%;
+	border-right: 1px solid white;
+	overflow: auto;
+}
+
+.singer-current-verse {
+	color: yellow;
+}
+
+.slides {
+	width: 100%;
+}
+
+.singer-slide-item {
+	height: 12px;
+	border: 1px solid white;
+	float: left;
+}
+
+.singer-current-verse .singer-current-slide {
+	border: 4px solid yellow;
+}
+
+.current-slide-view {
+	width: 45%;
+	border-right: 1px solid white;
+}
+
+.next-slide-view {
+	width: 45%;
+}
+
+.current-slide-view div, .next-slide-view div {
+	font-size: 30px;
+	line-height: 45px;
+}

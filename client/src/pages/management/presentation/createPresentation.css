@@ -1,0 +1,47 @@
+.selected-songs {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid white;
+}
+
+.selected-songs h2 {
+	border-bottom: 1px solid white;
+}
+
+.song-selector-list {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid white;
+	overflow: auto;
+}
+
+.song-selector-list h2:first-child {
+	border-bottom: 1px solid white;
+}
+
+.available-song {
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+	float: left;
+}
+
+.selected-song {
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.selected-song-label {
+	flex: 1;
+}
+
+.selected-song-remove {
+	flex: 0 0 12em;
+	border: 1px solid white;
+}

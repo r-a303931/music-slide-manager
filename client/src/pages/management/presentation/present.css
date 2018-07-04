@@ -1,0 +1,129 @@
+.present-error {
+	margin: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.present-box {
+	display: flex;
+	flex-direction: row;
+	height: calc(100% - 57px);
+	width: 100%;
+}
+
+.songs {
+	flex: 0 0 12em;
+	border-right: 1px solid white;
+}
+
+.song-item {
+	padding: 10px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+.song-item.current {
+	font-weight: bold;
+	color: yellow;
+}
+
+.verses {
+	flex: 0 0 12em;
+	border-right: 1px solid white;
+}
+
+.verse-item {
+	padding: 10px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+.verse-item.current {
+	font-weight: bold;
+	color: yellow;
+}
+
+.slides {
+	flex: 0 0 533px;
+	border-right: 1px solid white;
+	overflow: auto;
+}
+.slides .slide-item {
+	border: 1px solid white;
+	background: linear-gradient(to top, #000033 0%, #000099 50%, #000033 100%);
+	color: white;
+	display: inline-flex;
+	width: 533px;
+	height: 300px;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.current-info {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.current-info-header {
+	flex: 0 0 2em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.current-song {
+	margin-left: 20px;
+}
+
+.current-verse {
+	margin-right: 20px;
+}
+
+.stretchy-slide {
+	width: 100%;
+	padding-bottom: 56.25%;
+	border: 1px solid white;
+	background: linear-gradient(to top, #000033 0%, #000099 50%, #000033 100%);
+	color: white;
+	position: relative;
+}
+
+.stretchy-slide-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+	clear: left;
+}
+
+.slide-labels {
+	width: 50%;
+	float: left;
+	height: 2em;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.slide-labels .left-label {
+	margin-left: 10px;
+}
+
+.slide-labels .right-label {
+	margin-right: 10px;
+}

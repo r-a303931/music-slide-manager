@@ -1,0 +1,10 @@
+.management-links {
+	margin: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.management-links a {
+	display: inline-block;
+	padding: 0 10px;
+}

@@ -1,0 +1,44 @@
+.management-header {
+	background-color: #000000;
+	border-bottom: 1px solid #aaaa00;
+	padding: 10px;
+	height: 57px;
+}
+
+.management-header h1 {
+	display: inline-block;
+	color: white;
+}
+
+.management-header .link-box {
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 37px;
+}
+
+.management-header .management-link {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.management-header .management-link:hover {
+	text-decoration: underline;
+}
+
+.management-header .management-link.selected {
+	color: yellow;
+}
+
+button, input[type=submit] {
+	padding: 5px;
+	margin: 4px;
+	border-radius: 3px;
+	color: white;
+	background: #000066;
+	border: 1px solid #0000cc;
+	cursor: pointer;
+}

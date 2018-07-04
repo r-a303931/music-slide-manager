@@ -1,0 +1,49 @@
+.verse-editor {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid white;
+	padding-bottom: 0px;
+}
+
+.verse-editor-info {
+	flex: 0 0 12em;
+	padding: 5px;
+}
+
+.verse-editor-list {
+	flex: 1;
+	padding: 5px;
+}
+
+.verse-instance {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid white;
+	margin-bottom: 10px;
+}
+
+.verse-instance-info {
+	flex: 0 0 19em;
+	padding: 10px;
+	border-right: 1px solid white;
+}
+
+.verse-instance-info .verse-name-label {
+	display: inline-block;
+	padding: 4px;
+}
+
+.verse-instance-info input {
+	float: right;
+	padding: 4px;
+}
+
+.verse-instance-info button {
+	margin-top: 20px;
+}
+
+.verse-slides-editor {
+	flex: 1
+}

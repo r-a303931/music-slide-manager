@@ -1,0 +1,50 @@
+.order-editor-box {
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid white;
+}
+
+.order-editor-box .info {
+	flex: 0 0 12em;
+	padding: 4px;
+}
+
+.order-editor {
+	flex: 1;
+}
+
+.order-editor .verse-names {
+	border-bottom: 1px solid white;
+	width: 100%;
+}
+
+.order-verse-add {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.order-verse-editor-dragndrop-item {
+	padding: 10px;
+	width: 50%;
+}
+
+.order-verse-editor-dragndrop-text {
+	border: 1px solid white;
+	padding: 10px;
+	overflow: auto;
+}
+
+.order-verse-editor-dragndrop-remove {
+	float: right;
+	color: red;
+	text-decoration: none;
+}
+
+.order-verse-editor-dragndrop-remove:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,39 @@
+.song-info {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.song-info-label {
+	flex: 0 0 12em;
+	padding: 4px;
+}
+
+.song-info-input {
+	flex: 1;
+	padding: 4.5px 0;
+}
+
+.song-info-input input {
+	padding: 4px;
+}
+
+.submit-row {
+	margin: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.submit-row button {
+	margin-left: 12em;
+}
+
+span.create-error {
+	font-style: italic;
+	color: red;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0px 5px;
+}
